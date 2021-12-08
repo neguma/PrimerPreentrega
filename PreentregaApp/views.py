@@ -4,4 +4,4 @@ from django.shortcuts import render
 # Create your views here.
 
 def inicio(request):
-    return HttpResponse('<h1>Inicio</h1>')
+    return render(request, 'PreentregaApp/index.html', {})
