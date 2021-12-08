@@ -9,7 +9,7 @@ class guitarra(models.Model):
 
 class mastil(models.Model):
     madera=models.CharField(max_length=15)
-    numero=models.IntegerField()
+    largo=models.IntegerField()
     trastes=models.IntegerField()
 
 class cuerdas(models.Model):
