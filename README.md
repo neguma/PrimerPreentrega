@@ -5,5 +5,6 @@ ALMUNO NICOLÁS GUMA
 README:
 
 1) Iniciar PIPENV
-2) Página principal con enlaces a páginas secundarias
-3) Crear superuser
+2) Crear superuser
+3) Generar DB migrando Django
+4) Página principal con enlaces a páginas secundarias
