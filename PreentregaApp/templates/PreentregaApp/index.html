@@ -5,12 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primer Preentrega</title>
+    {% block head_block %}
+    {% endblock head_block %}
 </head>
-<h1>Aplicación Primer Preentrega</h1>
 
 <body>
-
+    <nav>
+        <a href={% url 'inicio' %}>Inicio</a>
+        <a href={% url 'guitarras' %}>Guitarras</a>
+        <a href={% url 'cuerdas' %}>Cuerdas</a>
+        <a href={% url 'mastil' %}>Mastil</a>
+    </nav>
+    {% block body_block %}
+    {% endblock body_block %}
 </body>
 
 </html>
